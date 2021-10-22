@@ -29,10 +29,11 @@ fetch('https://data.irozhlas.cz/covid-uzis/hosp_ocko.json').then((resp) => {
       },
       plotOptions: {
         series: {
-          stacking: 'normal',
+          //stacking: 'normal',
           animation: false,
           enableMouseTracking: false,
           dataLabels: {
+            inside: true,
             enabled: true,
             style: {
               color: 'white',
